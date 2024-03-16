@@ -42,6 +42,9 @@ ol {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .nav-header {
   display: flex;
@@ -153,20 +156,24 @@ ol {
 }
 
 .hero-button {
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
   cursor: pointer;
-  border-radius: 4px;
-  padding: 16px 32px;
-  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover {
@@ -244,6 +251,8 @@ ol {
   background-color: #ffffff;
   width: calc((100% - 72px) / 3);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .ourteam-subtitle {
@@ -260,6 +269,33 @@ ol {
 .ourteam-item-text {
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+.ourteam-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.ourteam-social-links-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourteam-social-links-item:hover,
+.ourteam-social-links-item:focus {
+  background-color: #31d0aa;
+}
+
+/* .link:hover,
+.link:focus {
+  background-color: #31d0aa;
+} */
+.ourteam-social {
+  fill: #f4f4fd;
 }
 
 /** ===============================**/
