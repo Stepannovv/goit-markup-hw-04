@@ -350,7 +350,7 @@ ol {
 }
 .link:hover,
 .link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 /** ===============================**/
@@ -502,6 +502,7 @@ ol {
   align-content: center;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-media-icon:hover,
 .footer-media-icon:focus {
