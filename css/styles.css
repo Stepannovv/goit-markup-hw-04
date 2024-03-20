@@ -159,7 +159,7 @@ ol {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -430,9 +430,10 @@ ol {
   transform: translateY(100%);
 }
 
-.box:hover .overlay {
+.portfolio-item:hover .overlay {
   transform: translateY(0);
 }
+
 /** ===============================**/
 /** ===============================**/
 /** ===========FOOTER==============**/
